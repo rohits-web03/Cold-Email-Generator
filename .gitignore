@@ -1,3 +1,87 @@
-myenv
-.env
-.ipynb_checkpoints
+# Ignore vectorstore directories
+**/vectorstore/
+
+# Ignore virtual environments
+**/myenv/
+**/env/
+**/venv/
+**/.venv/
+
+# Ignore environment variable files
+**/.env
+**/.env.*
+
+# Ignore Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and debugging files
+*.log
+*.out
+*.tmp
+*.err
+
+# Ignore compiled Python extensions
+*.so
+
+# Ignore dataset files (if generated or large)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+**/data/
+
+# Ignore model checkpoints and weights
+**/checkpoints/
+**/models/
+**/weights/
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# Ignore training logs and artifacts
+**/runs/
+**/logs/
+**/artifacts/
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.~ 
+.DS_Store
+Thumbs.db
+
+# Ignore packaging artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Ignore temporary files created by tools like TensorFlow, PyTorch, or Hugging Face
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore Conda environments
+**/conda_env/
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore GitHub-specific files
+.env.local
