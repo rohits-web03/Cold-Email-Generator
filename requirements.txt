@@ -1,0 +1,10 @@
+bs4==0.0.2
+chromadb==0.5.23
+ipykernel==6.29.5
+langchain-community==0.3.13
+langchain-core==0.3.28
+langchain-groq==0.2.2
+pandas==2.2.3
+python-dotenv==1.0.1
+streamlit==1.41.1
+
